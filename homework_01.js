@@ -77,7 +77,7 @@ function ex_2_R(x) {
 
 
 
-function ex_3(a){
+function ex_3_I(a){
     somma=0;
     for(i=0;i<a.length;i++)
     somma= somma + a[i];
@@ -92,7 +92,7 @@ function ex_3_R(a){
 	return (a[0]+a.slice(1))/a.length;
 }
 
-function ex_4(n1,n2){
+function ex_4_I(n1,n2){
 	somma=0;    
 	for(i=0;i<n2-n1;i++){
 		somma+=n1; 	
@@ -102,7 +102,7 @@ function ex_4(n1,n2){
 }
 
 
-function ex_5(n1,n2){
+function ex_5_I(n1,n2){
     mult=0;
     if(n1>=0 && n2>=0){
     	for(i=0;i<n2;i++){
@@ -121,7 +121,7 @@ function ex_5_R(n1,n2){
 }
 
 
-function ex_6(div1,div2){
+function ex_6_I(div1,div2){
 	resto=0;
 	quoz=0;
 	if(div1>0 && div2>0){
@@ -137,7 +137,7 @@ function ex_6(div1,div2){
 
 
 
-function ex_7(n,esp){
+function ex_7_I(n,esp){
     potenza=0;
     for(i=0;i<esp;i++)
         potenza= potenza + ex_5(n,n-1);
@@ -154,7 +154,7 @@ function ex_7_R(n,esp){
 }
 
 
-function ex_8(a){
+function ex_8_I(a){
 	for(i=0;i<a.length;i++){
 		for(j=0;j<a.length;j++){
 
@@ -165,7 +165,7 @@ function ex_8(a){
 }
 
 
-function ex_9(a){
+function ex_9_I(a){
 
 	for(i=0;i<a.length/2;i++){
 		tmp=a[i];
@@ -175,7 +175,7 @@ function ex_9(a){
 	return a;
 }
 
-function ex_10(n,a){
+function ex_10_I(n,a){
     vett=[];
     for(i=0;i<a;i++)
     vett[vett.length]=n;
@@ -192,7 +192,7 @@ function ex_10_R(n,a){
 }
 
 
-function ex_11(a){
+function ex_11_I(a){
 	b=[];
 	j=0;
 	lung=a.length-1;
